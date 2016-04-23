@@ -1,0 +1,18 @@
+body{
+  background-color: #DECED1;
+  text-align: center;
+}
+.sr-only{
+  position:absolute;
+  left:-1000px;
+  height: 1px;
+  width:1px;
+}
+
+.converter{
+  position: relative;
+  margin: 50px 0px 50px 0px;
+}
+.converter input{
+  width: 150px;
+}

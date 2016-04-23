@@ -1,0 +1,123 @@
+/**************************/
+/*    global styles       */
+/**************************/
+*{
+  box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6,body,.wrapper{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+html,body{
+  height:100%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/**************************/
+/*     custom classes     */
+/**************************/
+.clear{
+  clear:both;
+}
+.row{
+  margin: 0px 100px 30px 100px;
+  padding: 10px 15px 15px 10px;
+}
+.row:after{
+  clear: both;
+}
+.fw{
+  margin-left: 0px !important;
+  margin-right: 0px  !important;
+}
+.fw img,header,footer{
+  width:100%;
+}
+.rm-pad{
+  padding: 0px 0px 0px 0px;
+}
+.dark{
+  background-color: #222222;
+  color: #ffffff;
+}
+.light{
+  background-color: #ffffff;
+  color: #222222;
+}
+.item{
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+  overflow: hidden;
+}
+
+@media (min-width : 481px) and (max-width : 960px){
+  .row{
+    margin: 0px 20px 0px 20px;
+  }
+  .item{
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width : 200px) and (max-width : 480px){
+  .row{
+    margin: 0px 10px 0px 10px;
+  }
+  .item{
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 15px;
+  }
+}
+
+
+/**************************/
+/*  header/footer styles  */
+/**************************/
+header,footer{
+  position:relative;
+}
+
+.wrapper:after{
+  content: "";
+  display: block;
+}
+header,footer{
+  height: 150px;
+}
+header{
+  top:0px;
+}
+footer div{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right:25%;
+  transform: translateY(-50%);
+  text-align: center;
+
+}
+
+/**************************/
+/*   main content styles  */
+/**************************/
+.wrapper{
+  min-height: 100%;
+  margin-bottom: 150px;
+}
+
+
+
+
+
+
