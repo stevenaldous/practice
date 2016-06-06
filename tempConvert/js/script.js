@@ -9,6 +9,17 @@ document.addEventListener('DOMContentLoaded',function(){
   });
   document.getElementById('clear').addEventListener('click',function(){
     document.getElementById('celsius').value = '';
-    document.getElementById('temp').innerHTML = '--'
+    document.getElementById('temp').innerHTML = '--';
+    animate('temp')
   });
+
+
+  document.getElementById('').addEventListener('onload',function(){
+    alert('There is a change!');
+
+
+  })
+
+
+
  });
