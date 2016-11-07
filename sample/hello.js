@@ -1,10 +1,10 @@
-var your_name = ''
+var yourName = ''
 
-function isName(your_name){
-  if(your_name.length != 0){
-    return " "+your_name;
+function isName(yourName){
+  if(yourName.length != 0){
+    return " "+yourName;
   } else {
-    return your_name;
+    return yourName;
   }
 }
 
@@ -14,12 +14,12 @@ var greeting = {
   ln: 'Aldous',
   hp: '. I hope to speak with you about the exciting opportunities at ',
   cm: 'Toptal',
-  salutation: function(your_name){
-    return 'Hello' + isName(your_name) +
+  salutation: function(yourName){
+    return 'Hello' + isName(yourName) +
     ', nice to meet you! My name is ' +
     this.fn + ' ' + this.ln +
     this.hp + this.cm + '!';
   }
 };
 
-console.log(greeting.salutation(your_name))
+console.log(greeting.salutation(yourName))
