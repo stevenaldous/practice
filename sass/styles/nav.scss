@@ -1,13 +1,37 @@
+$navHeight:80px;
+
 nav{
+  margin: 0;
+  min-height: $navHeight;
   background-color: $black;
-  color: $white;
+  .container{
+    height: $navHeight - 10px;
+    position: relative;
+  }
+  .wrapper{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+  }
   h1{
     display: inline-block;
     margin: 0;
     padding: 0;
     float: left;
+    text-transform: uppercase;
+    a{
+      color: $white;
+      padding: 0;
+    }
+    a:hover{
+      color:$red;
+    }
   }
+
+
   ul{
+    display: inline-block;
     margin: 0;
     padding: 0px 20px;
     list-style: none;
@@ -15,7 +39,6 @@ nav{
 
   li{
     display: inline-block;
-    color: @
   }
 
   a{
@@ -23,6 +46,8 @@ nav{
     padding: 6px 12px;
     text-decoration: none;
   }
-
+  a:hover{
+    color: $white;
+  }
 
 }
