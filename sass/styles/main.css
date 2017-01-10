@@ -5,7 +5,7 @@ body {
   color: #F5A332; }
 
 .red {
-  color: #E46930; }
+  color: #ff0000; }
 
 .yellow {
   color: #FAC93B; }
@@ -32,7 +32,7 @@ nav {
       color: #ffffff;
       padding: 0; }
     nav h1 a:hover {
-      color: #E46930; }
+      color: #ff0000; }
   nav ul {
     display: inline-block;
     margin: 0;
