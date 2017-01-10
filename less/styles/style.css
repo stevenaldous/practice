@@ -25,12 +25,12 @@
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: #f4ffdd;
+  background: #ddddff;
   margin: 20px;
-  border: 20px solid #c6dd99;
+  border: 20px solid #bbbbdd;
 }
 .shape:hover {
-  background: #f4ddff;
+  background: #f4ffdd;
 }
 #shape1 {
   -webkit-border-radius: 9999px;

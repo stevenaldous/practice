@@ -9,6 +9,6 @@
    OPERATIONS & COLOR FUNCTIONS
 **********************************/
 
-@defaultThemeColor:spin(@lightBlue,200);
-
-@borderColor:darken(desaturate(@defaultThemeColor, 50%),20%);
+@defaultThemeColor:@lightBlue;
+@borderColor:@defaultThemeColor - #222;
+// @borderColor:darken(desaturate(@defaultThemeColor, 50%),20%);
