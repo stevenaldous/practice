@@ -1,0 +1,28 @@
+nav{
+  background-color: $black;
+  color: $white;
+  h1{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  ul{
+    margin: 0;
+    padding: 0px 20px;
+    list-style: none;
+  }
+
+  li{
+    display: inline-block;
+    color: @
+  }
+
+  a{
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+
+
+}
