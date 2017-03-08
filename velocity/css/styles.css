@@ -1,0 +1,12 @@
+body{
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: arial;
+  color: #fff;
+  min-height: 2000px;
+}
+.row{
+  min-height: 600px;
+}
+.row.one{
+  border-bottom:
+}
